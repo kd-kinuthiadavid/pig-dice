@@ -1,6 +1,129 @@
-#player-one-section{
-  float: left;
+h1 {
+  text-align: center;
+  font-family: 'Walter Turncoat', cursive;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 15px;
+  margin: 0;
+  line-height: 0.8;
 }
-#player-two-section{
-  float: right;
+
+h1#top {
+  color: #FF9999;
+  color: #FF99BB;
+  color: #FF6699;
+  font-size: 7em;
+
+}
+h1#bottom {
+  color: #FF6699;
+  font-size: 5.2em;
+  margin: 0;
+  padding-top: 0;
+}
+
+.title {
+  padding: 0;
+}
+
+
+img.logo {
+  width: 145px;
+  padding-top: 15px;
+}
+
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.8em;
+
+}
+
+.active {
+  border: 4px solid #FF6699;
+  border-radius: 10px;
+  color:
+}
+
+.active h3 .player {
+    font-size: 1.2em;
+}
+
+.active h3 {
+    color: #FF6699;
+
+}
+
+.player {
+    /*color: ##FF6699;*/
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Walter Turncoat', cursive;
+
+}
+
+p {
+    margin-top: 25px;
+}
+
+#players {
+  text-align: center;
+}
+
+.container {
+  background: #fff;
+  background: rgba(255,255,255, 0.99);
+  border: 10px solid #FF6699;
+  border-radius: 15px;
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-bottom: 50px;
+
+}
+
+body {
+    background-image: url("http://1nova.com/wallpapers/wp-content/uploads/sites/34/2015/02/Retro-80s-Arcade-Game.jpg");
+    background: blue;
+    /*border: 10px solid #FF6699;*/
+    color: #333;
+    height: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.btn {
+  /*margin-right: 20px;*/
+  /*border-width: 2px !important;*/
+  padding: 10px 25px;
+}
+
+#roll .btn {
+    color: #fff;
+    background: #FF6699;
+    border: #FF6699;
+    margin-left: -15px;
+}
+
+#end-turn .btn {
+    color: #fff;
+    background: #FF99BB;
+    background: #FF9999;
+    border: #FF99BB;
+    margin-left: px;
 }
