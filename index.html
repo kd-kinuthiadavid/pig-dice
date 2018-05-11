@@ -20,20 +20,72 @@
       <h1>WELCOME TO PIG DICE!</h1>
   </div>
   <div>
-    <form >
+    <form id="formOne" >
       <label for="playerOneInput">Player One:</label>
       <br>
-      <input type="text" id="playerOneInput" value="Enter your Name">
+      <input type="text" id="playerOneInput">
       <br>
       <br>
       <label for="playerTwoInput">Player Two:</label>
       <br>
-      <input type="text" id="playerTwoInput"  value="Enter Your Name">
+      <input type="text" id="playerTwoInput">
       <br>
       <br>
-      <button type="button" name="button"  id="PLAY-GAME" onclick="window.location.href='anotherIndex.html'">PLAY GAME!</button>
+      <button type="submit" name="button">PLAY!</button>
+
 
     </form>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6" id="player-one-section">
+        <div class="well">
+          <ul id="space-for-player-one-name">
+
+          </ul>
+          <div class="player-one-score">
+            <h5>Turn Score:</h5>
+            <h4>Total Score:</h4>
+          </div>
+
+        </div>
+        <div class="roll-hold-buttons">
+          <button type="submit" name="button"> Roll </button>
+          <button type="submit" name="button"> Hold </button>
+
+        </div>
+      </div>
+
+      <div class="col-md-6" id="player-two-section">
+        <div class="well">
+          <ul id="space-for-player-two-name">
+
+          </ul>
+          <div class="player-two-score">
+            <h5>Turn Score:</h5>
+            <h4>Total Score:</h4>
+          </div>
+
+        </div>
+        <div class="roll-hold-buttons">
+          <button type="submit" name="button"> Roll </button>
+          <button type="submit" name="button"> Hold </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h3>Rules</h3>
+          <p>shgacdvjhjkhgcxvbvjkxhcxdjkdhgvdlihbnfdkljvsdklfklassdjbgjkfnsdklfndksc njbgjkhfjkfbdhfbasjkhdhaCDVQAGDQASERDFGHJKFDJHGFDSAXCJHKLJCDHGFDXCSVDFGKLJHGFADSASDFHGKHLJFSGADXCVGHKGJDSFXSCDVFGHKJDHSFADAXSCDVGHKLJFHDGSFVCHKLJKGJHGFCXVBGHNKJGDGHSFDCVGGFHDGSFXFGLKFJSGHFXCDGKFSDXCVDLFDTIUGHNCMNCBXAPOIUFYHDJSHCSJKHVNHJHCVNSDJFBHVSDKLFJSVJVHSDJM</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
