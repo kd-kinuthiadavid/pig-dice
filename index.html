@@ -31,59 +31,66 @@
     <div class="row">
       <div class="col-md-6 rules">
         <p>
-          The objective of the Pig Dice Game is to score 100 points before your opponent does. The game is played with a single six-sided die. Continue rolling the die until you are happy with the number of points you have scored, and end your turn. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.
-          The objective of the Pig Dice Game is to score 100 points before your opponent does. The game is played with a single six-sided die. Continue rolling the die until you are happy with the number of points you have scored, and end your turn. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.
-          The objective of the Pig Dice Game is to score 100 points before your opponent does. The game is played with a single six-sided die. Continue rolling the die until you are happy with the number of points you have scored, and end your turn. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.
-          The objective of the Pig Dice Game is to score 100 points before your opponent does. The game is played with a single six-sided die. Continue rolling the die until you are happy with the number of points you have scored, and end your turn. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.
-          The objective of the Pig Dice Game is to score 100 points before your opponent does. The game is played with a single six-sided die. Continue rolling the die until you are happy with the number of points you have scored, and end your turn. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.
-        </p>
-      </div>
-      <div class="col-md-lg-6 big-picture">
-        <img src="images/darkPig.jpg" class="dark-pig" alt="pig">
+          <h3>Rules:</h3>
+          <h4>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</h4>
+          <ul>
+            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+            <li>
+              If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+              <li>The first player to score 100 or more points wins.</li>
+            </ul>
+            <br>
+            For example, the first player, Anne, begins a turn with a roll of 5. Anne could hold and score 5 points, but chooses to roll again. Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Anne rolls a 1, and must end her turn without scoring. The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds his turn total of 22 points to his score
+
+          </p>
+        </div>
+        <div class="col-md-lg-6 big-picture">
+          <img src="images/darkPig.jpg" class="dark-pig" alt="pig">
+        </div>
       </div>
     </div>
-  </div>
-  <section class="SECTION">
+    <section class="SECTION">
+      <div class="container-fluid">
+        <div class="row" id="playerSection">
+          <div class="col-md-6 " id="player1">
+            <div class="well PLAYERONE">
+              <h3><span class="player">PLAYER1: </span> <br> Score:<span id="player1-score"></span></h3>
+            </div>
+          </div>
+          <div class="col-md-6" id="player2">
+            <div class="well PLAYERTWO">
+              <h3><span class="player">PLAYER 2: </span> <br>Score:<span id="player2-score"></span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-lg-12 ">
+            <div class="jumbotron totals">
+              <h3>Turn Total: <span id="roll-total"></span></h3>
+              <h3>Current Roll: <span id="roll"></span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="container-fluid">
-      <div class="row" id="playerSection">
-        <div class="col-md-6 " id="player1">
-          <div class="well PLAYERONE">
-            <h3><span class="player">PLAYER1: </span> <br> Score:<span id="player1-score"></span></h3>
-          </div>
+      <div class="row roll-hold">
+        <div class="col-md-6 roll">
+          <form id="roll">
+            <button id="rollButton" type="submit" class="btn btn-default btn-lg">ROLL </button>
+          </form>
         </div>
-        <div class="col-md-6" id="player2">
-          <div class="well PLAYERTWO">
-            <h3><span class="player">PLAYER 2: </span> <br>Score:<span id="player2-score"></span></h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-lg-12 ">
-          <div class="jumbotron totals">
-            <h3>Turn Total: <span id="roll-total"></span></h3>
-            <h3>Current Roll: <span id="roll"></span></h3>
-          </div>
+        <div class="col-md-6 hold">
+          <form id="end-turn">
+            <button id="hold" type="submit" class="btn btn-default btn-lg ">HOLD</button>
+          </form>
         </div>
       </div>
     </div>
-  </section>
-
-  <div class="container-fluid">
-    <div class="row roll-hold">
-      <div class="col-md-6 roll">
-        <form id="roll">
-          <button id="rollButton" type="submit" class="btn btn-default btn-lg">ROLL </button>
-        </form>
-      </div>
-      <div class="col-md-6 hold">
-        <form id="end-turn">
-          <button id="hold" type="submit" class="btn btn-default btn-lg ">HOLD</button>
-        </form>
-      </div>
-    </div>
-  </div>
 
 
-</body>
+  </body>
