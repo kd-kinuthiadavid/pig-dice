@@ -78,6 +78,7 @@ $("form#end-turn").submit(function(event) {
 });
   ```
 ### decides and declares the winner
+
   ```
   if ((currentTurn.total + currentTurn.player.score) >= 100) {
     if (currentTurn.player == player1) {
@@ -91,9 +92,6 @@ $("form#end-turn").submit(function(event) {
 });
 
     ```
-
-
-
 ## SETUP/INSTALLATION:
   * Does not require any installation as it is a webpage and not a software-based game.Click on the following link to visit the webpage
   [PIG DICE](https://kd-kinuthiadavid.github.io/pig-dice/)
