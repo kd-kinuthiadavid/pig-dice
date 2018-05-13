@@ -1,3 +1,86 @@
+body {
+
+}
+.header{
+  background: url("../images/dice.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading{
+  font-size: 100px;
+  font-weight: bolder;
+  color: red;
+  text-align: center;
+  letter-spacing: 10px;
+
+
+}
+.header h1{
+  font-weight: bold;
+  font-size: 150px;
+  letter-spacing: 20px;
+}
+.header h3{
+  font-size: 100px;
+}
+.rules{
+  float: right;
+}
+.big-picture{
+  float: left;
+}
+.totals{
+  text-align:center;
+  width:700px;
+  margin-left: 300px;
+}
+.dark-pig{
+  height: 510px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.big-picture{
+  padding-top: 0px;
+  margin-top: 0;
+}
+#playerSection{
+
+
+  height: 270px;
+
+}
+.PLAYERONE{
+  margin-top: 50px;
+  margin-bottom: : 50px;
+  height: 150px;
+}
+.PLAYERTWO{
+  margin-top: 50px;
+  margin-bottom: : 50px;
+  height: 150px;
+}
+.SECTION{
+  background: url("../images/dice1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#rollButton{
+  width: 350px;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+#hold{
+  width: 350px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.roll-hold{
+  background: url("../images/dice3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
 h1 {
   text-align: center;
   font-family: 'Walter Turncoat', cursive;
@@ -23,7 +106,7 @@ h1#bottom {
 }
 
 /* .title {
-  padding: 0;
+padding: 0;
 } */
 
 
@@ -51,18 +134,18 @@ h5 {
 }
 
 .active h3 .player {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .active h3 {
-    color: #FF6699;
+  color: #FF6699;
 
 }
 
 .player {
-    /*color: ##FF6699;*/
-    font-size: 1.2em;
-    margin-bottom: 30px;
+  /*color: ##FF6699;*/
+  font-size: 1.2em;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -71,41 +154,14 @@ h3 {
 }
 
 p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 #playerSection {
   text-align: center;
 }
 
-.container {
-  /* background: #fff;
-  background: rgba(255,255,255, 0.99);
-  border: 10px solid #FF6699;
-  border-radius: 15px;
-  width: 500px;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-bottom: 50px; */
 
-}
-
-body {
-
-    background: blue;
-    /*border: 10px solid #FF6699;*/
-    color: #333;
-    height: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
 
 .btn {
   /*margin-right: 20px;*/
@@ -114,18 +170,17 @@ body {
 }
 
 #roll .btn {
-    color: black;
-    background: yellow;
-    border: #FF6699;
-    margin-left: -15px;
+  color: black;
+  background: yellow;
+  border: #FF6699;
+  margin-left: 100px;
 }
 
 #end-turn .btn {
-    color: #fff;
-    background: green;
-    /* background: #FF9999; */
-    border: #FF99BB;
-    margin-left: px;
+  color: black;
+  background: green;
+  border: #FF99BB;
+  margin-right: 2px;
 }
 .roll{
   float: left;
