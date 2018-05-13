@@ -79,7 +79,7 @@ p {
 }
 
 .container {
-  background: #fff;
+  /* background: #fff;
   background: rgba(255,255,255, 0.99);
   border: 10px solid #FF6699;
   border-radius: 15px;
@@ -89,12 +89,12 @@ p {
   margin-bottom: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
 
 }
 
 body {
-    background-image: url("http://1nova.com/wallpapers/wp-content/uploads/sites/34/2015/02/Retro-80s-Arcade-Game.jpg");
+
     background: blue;
     /*border: 10px solid #FF6699;*/
     color: #333;
@@ -114,16 +114,22 @@ body {
 }
 
 #roll .btn {
-    color: #fff;
-    background: #FF6699;
+    color: black;
+    background: yellow;
     border: #FF6699;
     margin-left: -15px;
 }
 
 #end-turn .btn {
     color: #fff;
-    background: #FF99BB;
-    background: #FF9999;
+    background: green;
+    /* background: #FF9999; */
     border: #FF99BB;
     margin-left: px;
+}
+.roll{
+  float: left;
+}
+.hold{
+  float: right;
 }
