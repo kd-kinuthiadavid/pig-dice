@@ -22,9 +22,9 @@ h1#bottom {
   padding-top: 0;
 }
 
-.title {
+/* .title {
   padding: 0;
-}
+} */
 
 
 img.logo {
@@ -74,7 +74,7 @@ p {
     margin-top: 25px;
 }
 
-#players {
+#playerSection {
   text-align: center;
 }
 
