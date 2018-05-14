@@ -1,27 +1,33 @@
 body {
-
+  font-family: 'Ultra', serif;
+  font-size: 12px;
 }
 .header{
-  background: url("../images/dice.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #40042A;
 }
 .heading{
   font-size: 100px;
   font-weight: bolder;
-  color: red;
+  color: green;
   text-align: center;
   letter-spacing: 10px;
-
-
+  font-family: 'Ultra', serif;
+}
+.rls{
+  font-family: 'Ultra', serif;
+  font-size: 20px;
 }
 .header h1{
   font-weight: bold;
   font-size: 150px;
   letter-spacing: 20px;
+  font-family: 'Ultra', serif;
+
 }
 .header h3{
   font-size: 100px;
+  font-family: 'Ultra', serif;
+
 }
 .rules{
   float: right;
@@ -33,6 +39,8 @@ body {
   text-align:center;
   width:700px;
   margin-left: 300px;
+  font-family: 'Ultra', serif;
+
 }
 .dark-pig{
   height: 510px;
@@ -58,6 +66,8 @@ body {
   margin-top: 50px;
   margin-bottom: : 50px;
   height: 150px;
+  font-family: 'Ultra', serif;
+
 }
 .SECTION{
   background: url("../images/dice1.jpeg");
@@ -80,7 +90,18 @@ body {
   background-size: cover;
   height: 150px;
 }
+.player{
+  font-family: 'Ultra', serif;
 
+}
+.player1-score{
+  font-family: 'Ultra', serif;
+
+}
+.player2-score{
+  font-family: 'Ultra', serif;
+
+}
 h1 {
   text-align: center;
   font-family: 'Walter Turncoat', cursive;
@@ -104,10 +125,6 @@ h1#bottom {
   margin: 0;
   padding-top: 0;
 }
-
-/* .title {
-padding: 0;
-} */
 
 
 img.logo {

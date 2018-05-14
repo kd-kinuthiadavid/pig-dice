@@ -9,6 +9,7 @@
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Baloo+Paaji|Baloo+Tamma|Gravitas+One|Rammetto+One|Ultra" rel="stylesheet">
   <script  src="js/scripts.js" type="text/javascript"></script>
 </head>
 <body>
@@ -31,7 +32,7 @@
     <div class="row">
       <div class="col-md-6 rules">
         <p>
-          <h3>Rules:</h3>
+          <h3 class="rls">Rules:</h3>
           <h4>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</h4>
           <ul>
             <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
@@ -67,10 +68,10 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-lg-12 ">
-            <div class="jumbotron totals">
-              <h3>Turn Total: <span id="roll-total"></span></h3>
-              <h3>Current Roll: <span id="roll"></span></h3>
+          <div class="col-md-lg-12 totals">
+            <div class="jumbotron ">
+              <h3 class="rls">Turn Total: <span id="roll-total"></span></h3>
+              <h3 class="rls">Current Roll: <span id="roll"></span></h3>
             </div>
           </div>
         </div>
