@@ -102,47 +102,6 @@ body {
   font-family: 'Ultra', serif;
 
 }
-h1 {
-  text-align: center;
-  font-family: 'Walter Turncoat', cursive;
-  padding: 0;
-  padding-left: 30px;
-  padding-top: 15px;
-  margin: 0;
-  line-height: 0.8;
-}
-
-h1#top {
-  color: #FF9999;
-  color: #FF99BB;
-  color: #FF6699;
-  font-size: 7em;
-
-}
-h1#bottom {
-  color: #FF6699;
-  font-size: 5.2em;
-  margin: 0;
-  padding-top: 0;
-}
-
-
-img.logo {
-  width: 145px;
-  padding-top: 15px;
-}
-
-
-h3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-h5 {
-  text-align: center;
-  font-size: 1.8em;
-
-}
 
 .active {
   border: 4px solid #FF6699;
@@ -159,21 +118,6 @@ h5 {
 
 }
 
-.player {
-  /*color: ##FF6699;*/
-  font-size: 1.2em;
-  margin-bottom: 30px;
-}
-
-h3 {
-  font-family: 'Walter Turncoat', cursive;
-
-}
-
-p {
-  margin-top: 25px;
-}
-
 #playerSection {
   text-align: center;
 }
@@ -181,8 +125,7 @@ p {
 
 
 .btn {
-  /*margin-right: 20px;*/
-  /*border-width: 2px !important;*/
+
   padding: 10px 25px;
 }
 
@@ -193,7 +136,7 @@ p {
   margin-left: 100px;
 }
 
-#end-turn .btn {
+#hold-turn .btn {
   color: black;
   background: green;
   border: #FF99BB;

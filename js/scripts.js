@@ -73,7 +73,7 @@ $(document).ready(function() {
     $('#roll-total').text(currentTurn.total);
 
     //hold button
-    $("form#end-turn").submit(function(event) {
+    $("form#hold-turn").submit(function(event) {
       event.preventDefault();
 
       currentTurn.nextPlayer(player1, player2);
